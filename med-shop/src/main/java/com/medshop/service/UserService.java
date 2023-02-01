@@ -1,5 +1,7 @@
 package com.medshop.service;
 
-public interface UserService {
+import com.medshop.entity.User;
 
+public interface UserService {
+	User login(String userName, String password);
 }
